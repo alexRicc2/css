@@ -1,0 +1,34 @@
+.container{
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-auto-rows: 250px;
+  justify-content: space-evenly;
+  row-gap: 10px;
+  min-height: 100vh;
+  background-color: black;
+ 
+  @media screen and (max-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  div{
+    background-color: yellow;
+  }
+ 
+  // header{
+  //   background-color: red;
+  //   grid-area: h;
+  // }
+  // main{
+  //   background-color: blue;
+  //   grid-area: m;
+  // }
+  // aside{
+  //   background-color: yellow;
+  //   grid-area: a;
+  // }
+  // footer{
+  //   background-color: green;
+  //   grid-area: f;
+  // }
+}

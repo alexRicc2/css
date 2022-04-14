@@ -1,0 +1,23 @@
+.caixas{
+  // display: flex;
+  // flex-wrap: wrap;
+
+  div{
+    width: 25%;
+    height: 120px;
+    // box-sizing: border-box;
+    display: inline-block;    
+  }
+  .caixa-1{
+    background-color: yellow;
+  }
+  .caixa-2{
+    background-color: red;
+  }
+  .caixa-3{
+    background-color: blue;
+  }
+  .caixa-4{
+    background-color: green;
+  }
+}
